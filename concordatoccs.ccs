@@ -1,0 +1,138 @@
+/* Global Styles */
+body {
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+  padding: 0;
+  color: #333;
+  background: #f9f9f9;
+}
+
+.container {
+  width: 90%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+h1, h2, h3 {
+  font-family: 'Montserrat', sans-serif;
+  color: #002b5c;
+}
+
+/* Highlight */
+.highlight {
+  color: #ffc107;
+  font-weight: 700;
+}
+
+/* Hero Section */
+.hero {
+  background: linear-gradient(135deg, #002b5c, #0056a5);
+  color: #fff;
+  text-align: center;
+  padding: 3rem 1rem;
+}
+
+.hero h1 {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+  color: #fff; /* Cambia la scritta "Risparmia fino al 50%" in bianco */
+}
+
+.hero p {
+  font-size: 1.2rem;
+  margin-bottom: 2rem;
+}
+
+.cta-btn {
+  background: #ffc107;
+  color: #002b5c;
+  padding: 0.8rem 1.5rem;
+  font-size: 1.2rem;
+  font-weight: bold;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+/* Benefits Section */
+.benefits {
+  background: #fff;
+  padding: 2rem 1rem;
+}
+
+.benefits h2 {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.benefit-cards {
+  display: flex;
+  gap: 1.5rem;
+  justify-content: center;
+}
+
+.card {
+  background: #ffc107;
+  padding: 1.5rem;
+  border-radius: 10px;
+  color: #002b5c;
+  text-align: center;
+  width: 300px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.card h3 {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+/* Contact Form Section */
+.contact-form {
+  background: #002b5c;
+  color: #fff;
+  padding: 3rem 1rem;
+}
+
+.contact-form h2 {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.contact-form form {
+  display: grid;
+  gap: 1.2rem;
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+.contact-form input,
+.contact-form select,
+.contact-form button {
+  padding: 1rem;
+  font-size: 1rem;
+  border: none;
+  border-radius: 5px;
+}
+
+.contact-form input,
+.contact-form select {
+  width: 100%;
+}
+
+.contact-form button {
+  background: #ffc107;
+  color: #002b5c;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.contact-form button:hover {
+  background: #e0a800;
+}
+
+/* Footer */
+footer {
+  background: #0056a5;
+  color: #fff;
+  text-align: center;
+  padding: 1rem;
+}
